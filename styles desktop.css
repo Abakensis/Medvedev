@@ -1,0 +1,88 @@
+*{
+margin:auto;
+padding:auto;
+
+}
+.container{
+    width: 100vw;  
+    justify-content: center;
+    justify-items: center;
+    text-align: center; 
+}
+.picture{
+  width: 100vw;  
+  justify-content: center;
+  justify-items: center;
+  text-align: center;
+}
+h1{
+    text-height:1.5em;
+    text-align: center;
+    margin-inline-start: 15x;
+    margin-inline-end: 15px
+}
+.Photo{
+width: 300px;
+height:300px;
+justify-content: center;
+border-radius: 60px;
+align-items: center;
+}
+td{
+    border-radius:5px;
+    text-align: center;
+    font-size: 1vw;
+    line-height: 1.5em;
+    margin-top :3px;;
+    margin-bottom: 3px;
+}
+.table{
+    background-color: blanchedalmond;
+}
+.tableau{
+    width: 100vw;
+    align-items: center;
+
+}
+.magenta{
+background-color: rgb(235, 117, 156);
+}
+.red{
+    background-color: rgb(133, 61, 61)
+}
+.marron{
+    background-color: rgb(112, 65, 150); 
+}
+.green{
+    background-color:green;
+}
+.greeny{
+    background-color:rgb(119, 182, 130);
+}
+.yellow{
+    background-color:yellow;
+}
+.blue{
+    background-color: rgb(54, 141, 192);
+}
+.greenyellow{
+    background-color:greenyellow
+}
+.Orangelight{
+    background-color:rgb(247, 213, 150)
+}
+.orange{
+   background-color:orange 
+}
+@media screen and (max-width:400px){
+    .photo{
+        width: 150px;
+        height:120px;
+        justify-content: center;
+border-radius: 60px;
+align-items: center;
+    }
+    h1{
+        text-height:1.5em;
+       text-align: center;    
+}
